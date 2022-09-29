@@ -1,3 +1,21 @@
+window.addEventListener(`load`, function(){
+    setTimeout(
+        function open(event){
+            document.querySelector(`.popup`).style.display = 
+            `block`;
+        },
+        2000
+    )
+});
+
+document.querySelector(`#close`).addEventListener
+(`click`, function(){
+    document.querySelector(".popup").style.display =
+    "none";
+});
+
+
+
 let firstName = document.querySelector('#first-name').value;
 let lastName = document.querySelector(`#last-name`).value;
 
@@ -79,9 +97,10 @@ submit.addEventListener('submit', function (event) {
         event.preventDefault()
     };
 });
-// Past experience should be at least 50 characters
+
 let pastExperience = document.querySelector(`#past-experience`).value;
 
 if (pastExperience <= 50 ){
     console.log('Please give us more details :)')
-} }
+} };
+

@@ -1,13 +1,13 @@
 html {
     font: 13px/26px "Helvetica Neue", Verdana, sans-serif;
   }
-  body {
+  bodyf {
     width: 702px;
     margin: 52px auto;
     box-shadow: 0 9px 63px rgba(0, 0, 0, 0.22);
     border-radius: 8px;
   }
-  h1 {
+  h1f {
     text-align: center;
     background: -webkit-linear-gradient(90deg, #ACABAD, #ECECEC);
     color: #5F5F5F;
@@ -63,10 +63,10 @@ html {
   textarea,
   input[type="text"],
   select {
-    border: 1px solid #BCBCBC;
+    border: 1px solid #f9f7f7;
     padding: 6px;
     margin: 0;
-    background: #FFF9E2;
+    background: #d8d3ba;
     border-radius: 4px;
   }
   textarea:focus,
@@ -75,7 +75,7 @@ html {
     background: white;
     border: 1px solid #99E2FF;
     outline: none;
-    box-shadow: 0 0 6px #99E2FF;
+    box-shadow: 0 0 6px #e80606;
   }
   input[type="text"] {
     width: 326px;
